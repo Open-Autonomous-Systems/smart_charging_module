@@ -1,0 +1,104 @@
+# Created by Ultra Librarian Gold 8.3.283 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'SOT_1040-13_DIO.pac';
+Layer 1;
+Smd '1' 39 34 -0 R0 (-36.2205 -121);
+Layer 1;
+Smd '2' 39 34 -0 R0 (36.2205 -121);
+Layer 1;
+Smd '3' 74 45 -0 R0 (0 115.5);
+Layer 51;
+Wire 6 (-17 -108) (-56 -108);
+Wire 6 (-56 -108) (-56 -130);
+Wire 6 (-56 -130) (-17 -130);
+Wire 6 (-17 -130) (-17 -108);
+Wire 6 (56 -108) (17 -108);
+Wire 6 (17 -108) (17 -130);
+Wire 6 (17 -130) (56 -130);
+Wire 6 (56 -130) (56 -108);
+Wire 6 (-37 108) (37 108);
+Wire 6 (37 108) (37 130);
+Wire 6 (37 130) (-37 130);
+Wire 6 (-37 130) (-37 108);
+Wire 6 (-80 -108) (80 -108);
+Wire 6 (80 -108) (80 108);
+Wire 6 (80 108) (-80 108);
+Wire 6 (-80 108) (-80 -108);
+Wire 0 (-64 -98) -180 (-74 -98);
+Wire 0 (-74 -98) -180 (-64 -97);
+Layer 21;
+Wire 6 (-84 -112) (-69 -112);
+Wire 6 (84 -112) (84 112);
+Wire 6 (84 112) (50 112);
+Wire 6 (-84 112) (-84 -112);
+Wire 6 (-4 -112) (4 -112);
+Wire 6 (69 -112) (84 -112);
+Wire 6 (-50 112) (-84 112);
+Wire 6 (-124 -130) -180 (-134 -130);
+Wire 6 (-134 -130) -180 (-124 -130);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (-68 -25);
+Layer 31;
+Layer 31;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-37 138) (37 138) (37 93) (60 92.9921) (60 -47.0079) (-60 -47.0079) \
+    (-60 92.9921) (-37 93) (-37 138);
+Layer 1;
+Layer 1;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-37 138) (37 138) (37 93) (60 92.9921) (60 -47.0079) (-60 -47.0079) \
+    (-60 92.9921) (-37 93) (-37 138);
+Layer 29;
+Layer 29;
+Change Spacing 50;
+Change Pour solid;
+Polygon 1  (-37 138) (37 138) (37 93) (60 92.9921) (60 -47.0079) (-60 -47.0079) \
+    (-60 92.9921) (-37 93) (-37 138);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'SOT_1040-13.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Both 0 (100 0)
+Pin '2' Pas None Middle R0 Both 0 (100 -100)
+Pin '3' Pas None Middle R180 Both 0 (1500 -100)
+Wire 6 (300 200) (300 -300);
+Wire 6 (300 -300) (1300 -300);
+Wire 6 (1300 -300) (1300 200);
+Wire 6 (1300 200) (300 200);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (614 359);
+Layer 96;
+Change Size 82;
+Change Ratio 6;
+Text '>Value' SR0 (589 259);
+
+Edit 'PDS1040-13.dev';
+Prefix 'U';
+Description '';
+Value Off;
+Add SOT_1040-13 'A' Next  0 (0 0);
+Package 'SOT_1040-13_DIO';
+Technology '';
+Attribute Vendor 'Diodes Inc';
+Attribute Manufacturer_Part_Number 'PDS1040-13';
+Attribute Copyright 'Copyright (C) 2018 Accelerated Designs. All rights reserved';
+Attribute Built_By 'EMA_Matt';
+Attribute SourceLibrary 'Diodes_Inc_2019-12-05';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';

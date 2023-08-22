@@ -1,0 +1,280 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="LGA108S100P10X14_1000X1400X263N">
+<wire x1="-5" y1="-7" x2="-5" y2="7" width="0.127" layer="51"/>
+<wire x1="-5" y1="7" x2="5" y2="7" width="0.127" layer="51"/>
+<wire x1="5" y1="7" x2="5" y2="-7" width="0.127" layer="51"/>
+<wire x1="5" y1="-7" x2="-5" y2="-7" width="0.127" layer="51"/>
+<wire x1="-5.01" y1="4.505" x2="-5.01" y2="7.01" width="0.127" layer="21"/>
+<wire x1="-5.01" y1="7.01" x2="-2.505" y2="7.01" width="0.127" layer="21"/>
+<wire x1="2.505" y1="7.01" x2="5.01" y2="7.01" width="0.127" layer="21"/>
+<wire x1="5.01" y1="7.01" x2="5.01" y2="4.505" width="0.127" layer="21"/>
+<wire x1="-2.505" y1="-7.01" x2="-5.01" y2="-7.01" width="0.127" layer="21"/>
+<wire x1="-5.01" y1="-7.01" x2="-5.01" y2="-4.505" width="0.127" layer="21"/>
+<wire x1="5.01" y1="-4.505" x2="5.01" y2="-7.01" width="0.127" layer="21"/>
+<wire x1="5.01" y1="-7.01" x2="2.505" y2="-7.01" width="0.127" layer="21"/>
+<wire x1="-5.5" y1="-7.5" x2="-5.5" y2="7.5" width="0.05" layer="39"/>
+<wire x1="-5.5" y1="7.5" x2="5.5" y2="7.5" width="0.05" layer="39"/>
+<wire x1="5.5" y1="7.5" x2="5.5" y2="-7.5" width="0.05" layer="39"/>
+<wire x1="5.5" y1="-7.5" x2="-5.5" y2="-7.5" width="0.05" layer="39"/>
+<circle x="-6" y="6.6" radius="0.1" width="0.2" layer="21"/>
+<circle x="-6" y="6.6" radius="0.1" width="0.2" layer="51"/>
+<text x="-5.50414" y="7.60573" size="1.27096" layer="25">&gt;NAME</text>
+<text x="-5.60229" y="-8.8036" size="1.27052" layer="27">&gt;VALUE</text>
+<smd name="A1" x="-4.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B1" x="-3.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C1" x="-2.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D1" x="-1.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E1" x="-0.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G1" x="1.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H1" x="2.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J1" x="3.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K1" x="4.5" y="6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A2" x="-4.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B2" x="-3.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C2" x="-2.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D2" x="-1.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E2" x="-0.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G2" x="1.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H2" x="2.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J2" x="3.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K2" x="4.5" y="5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A3" x="-4.5" y="4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B3" x="-3.5" y="4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C3" x="-2.5" y="4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D3" x="-1.5" y="4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E3" x="-0.5" y="4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A4" x="-4.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B4" x="-3.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C4" x="-2.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D4" x="-1.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E4" x="-0.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G4" x="1.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H4" x="2.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J4" x="3.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K4" x="4.5" y="3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A5" x="-4.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B5" x="-3.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C5" x="-2.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D5" x="-1.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E5" x="-0.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G5" x="1.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H5" x="2.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J5" x="3.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K5" x="4.5" y="2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A6" x="-4.5" y="1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B6" x="-3.5" y="1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C6" x="-2.5" y="1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D6" x="-1.5" y="1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E6" x="-0.5" y="1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A7" x="-4.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B7" x="-3.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C7" x="-2.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D7" x="-1.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E7" x="-0.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="F7" x="0.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G7" x="1.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H7" x="2.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J7" x="3.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K7" x="4.5" y="0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A8" x="-4.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B8" x="-3.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C8" x="-2.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D8" x="-1.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E8" x="-0.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="F8" x="0.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G8" x="1.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H8" x="2.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J8" x="3.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K8" x="4.5" y="-0.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A9" x="-4.5" y="-1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B9" x="-3.5" y="-1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C9" x="-2.5" y="-1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D9" x="-1.5" y="-1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E9" x="-0.5" y="-1.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A10" x="-4.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B10" x="-3.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C10" x="-2.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D10" x="-1.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E10" x="-0.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G10" x="1.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H10" x="2.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J10" x="3.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K10" x="4.5" y="-2.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A11" x="-4.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B11" x="-3.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C11" x="-2.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D11" x="-1.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E11" x="-0.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G11" x="1.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H11" x="2.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J11" x="3.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K11" x="4.5" y="-3.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A12" x="-4.5" y="-4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B12" x="-3.5" y="-4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="C12" x="-2.5" y="-4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D12" x="-1.5" y="-4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E12" x="-0.5" y="-4.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A13" x="-4.5" y="-5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B13" x="-3.5" y="-5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G13" x="1.5" y="-5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H13" x="2.5" y="-5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J13" x="3.5" y="-5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K13" x="4.5" y="-5.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="A14" x="-4.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="B14" x="-3.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="D14" x="-1.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="E14" x="-0.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="G14" x="1.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="H14" x="2.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="J14" x="3.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+<smd name="K14" x="4.5" y="-6.5" dx="0.55" dy="0.55" layer="1" roundness="16"/>
+</package>
+</packages>
+<symbols>
+<symbol name="PI3740-00-LGIZ">
+<wire x1="10.16" y1="-33.02" x2="-10.16" y2="-33.02" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-33.02" x2="-10.16" y2="33.02" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="33.02" x2="10.16" y2="33.02" width="0.254" layer="94"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="-33.02" width="0.254" layer="94"/>
+<text x="-10.168" y="33.8087" size="1.7794" layer="95">&gt;NAME</text>
+<text x="-10.1724" y="-35.6035" size="1.78017" layer="96">&gt;VALUE</text>
+<pin name="VIN" x="-15.24" y="25.4" length="middle" direction="in"/>
+<pin name="VS1" x="-15.24" y="27.94" length="middle" direction="in"/>
+<pin name="VS2" x="15.24" y="27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="VOUT" x="15.24" y="25.4" length="middle" direction="out" rot="R180"/>
+<pin name="VDR" x="-15.24" y="22.86" length="middle" direction="in"/>
+<pin name="PGD" x="-15.24" y="17.78" length="middle" direction="in"/>
+<pin name="SYNCO" x="-15.24" y="2.54" length="middle" direction="out"/>
+<pin name="SYNCI" x="-15.24" y="5.08" length="middle" direction="in"/>
+<pin name="EN" x="-15.24" y="12.7" length="middle" direction="in"/>
+<pin name="TRK" x="-15.24" y="-5.08" length="middle" direction="in"/>
+<pin name="LGH" x="15.24" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="COMP" x="-15.24" y="-10.16" length="middle" direction="pas"/>
+<pin name="VSN" x="15.24" y="7.62" length="middle" direction="in" rot="R180"/>
+<pin name="VSP" x="15.24" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="VDIFF" x="15.24" y="2.54" length="middle" direction="out" rot="R180"/>
+<pin name="EAIN" x="15.24" y="-7.62" length="middle" direction="in" rot="R180"/>
+<pin name="EAO" x="15.24" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="IMON" x="15.24" y="22.86" length="middle" direction="out" rot="R180"/>
+<pin name="ISN" x="15.24" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="ISP" x="15.24" y="17.78" length="middle" direction="in" rot="R180"/>
+<pin name="SGND" x="15.24" y="-27.94" length="middle" direction="pwr" rot="R180"/>
+<pin name="PGND" x="15.24" y="-30.48" length="middle" direction="pwr" rot="R180"/>
+<pin name="FT1" x="15.24" y="-15.24" length="middle" direction="pas" rot="R180"/>
+<pin name="FT2" x="15.24" y="-17.78" length="middle" direction="pas" rot="R180"/>
+<pin name="FT3" x="15.24" y="-20.32" length="middle" direction="pas" rot="R180"/>
+<pin name="FT4" x="15.24" y="-22.86" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PI3740-00-LGIZ" prefix="U">
+<description>PI3740-00 Series 140 W 8 to 60 Vin 10 to 50 V ZVS Buck-Boost Switching Regulator &lt;a href="https://pricing.snapeda.com/parts/PI3740-00-LGIZ/Vicor%20Corporation/view-part?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="PI3740-00-LGIZ" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="LGA108S100P10X14_1000X1400X263N">
+<connects>
+<connect gate="G$1" pin="COMP" pad="A8"/>
+<connect gate="G$1" pin="EAIN" pad="A12"/>
+<connect gate="G$1" pin="EAO" pad="A13"/>
+<connect gate="G$1" pin="EN" pad="A5"/>
+<connect gate="G$1" pin="FT1" pad="A1"/>
+<connect gate="G$1" pin="FT2" pad="A2"/>
+<connect gate="G$1" pin="FT3" pad="A3"/>
+<connect gate="G$1" pin="FT4" pad="A4"/>
+<connect gate="G$1" pin="IMON" pad="A14"/>
+<connect gate="G$1" pin="ISN" pad="D14"/>
+<connect gate="G$1" pin="ISP" pad="E14"/>
+<connect gate="G$1" pin="LGH" pad="A7"/>
+<connect gate="G$1" pin="PGD" pad="D1"/>
+<connect gate="G$1" pin="PGND" pad="B2 B3 B4 B5 B6 B7 B8 B9 C2 C3 C4 C5 C6 C7 C8 C9 D2 D3 D4 D5 D6 D7 D8 D9 E2 E3 E4 E5 E6 E7 E8 E9 F7 F8 G7 G8 H7 H8 J7 J8 K7 K8"/>
+<connect gate="G$1" pin="SGND" pad="B10 B11 B12 B13 B14 C10 C11 C12 D10 D11 D12 E10 E11 E12"/>
+<connect gate="G$1" pin="SYNCI" pad="B1"/>
+<connect gate="G$1" pin="SYNCO" pad="C1"/>
+<connect gate="G$1" pin="TRK" pad="A6"/>
+<connect gate="G$1" pin="VDIFF" pad="A11"/>
+<connect gate="G$1" pin="VDR" pad="E1"/>
+<connect gate="G$1" pin="VIN" pad="G1 G2 H1 H2 J1 J2 K1 K2"/>
+<connect gate="G$1" pin="VOUT" pad="G13 G14 H13 H14 J13 J14 K13 K14"/>
+<connect gate="G$1" pin="VS1" pad="G4 G5 H4 H5 J4 J5 K4 K5"/>
+<connect gate="G$1" pin="VS2" pad="G10 G11 H10 H11 J10 J11 K10 K11"/>
+<connect gate="G$1" pin="VSN" pad="A9"/>
+<connect gate="G$1" pin="VSP" pad="A10"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Description" value="
+Buck-Boost Switching Regulator IC Positive Adjustable (Fixed) 10V (12V) 1 Output 7.42A 108-BLGA Module
+"/>
+<attribute name="MP" value="PI3740-00-LGIZ"/>
+<attribute name="Package" value="BLGA-108 Vicor"/>
+<attribute name="Availability" value="No availability data"/>
+<attribute name="Price" value="None"/>
+<attribute name="MF" value="Vicor Corporation"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

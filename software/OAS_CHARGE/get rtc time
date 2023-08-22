@@ -1,0 +1,19 @@
+get rtc time
+set rtc time
+sync rtc time over uart
+save last known rtc time to flash every minute and also save 8-bit session_id(rollsover), related function
+---
+
+obc cmds
+set state
+get state
+get status
+
+---
+
+state machine
+.state
+.nextWakeupTime
+
+---
+logging

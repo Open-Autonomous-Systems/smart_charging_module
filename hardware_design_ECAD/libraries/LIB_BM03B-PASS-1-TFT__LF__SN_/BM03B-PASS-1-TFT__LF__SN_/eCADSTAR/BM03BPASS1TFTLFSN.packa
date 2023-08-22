@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "BM03B-PASS-1-TFT__LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-07-04-11:18:06)
+    (mountForm default
+        (footprintRef "BM03BPASS1TFTLFSN")
+        (spec "System")
+    )
+)

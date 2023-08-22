@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=BM03B-PASS-1-TFT(LF)(SN)
+PartCategory=Connector
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2020-03-26 12:39:59
+Downloaded=2022-01-25 20:28:07
+3D=Y

@@ -1,0 +1,19 @@
+.BM03B-PASS-1-TFT_LF__SN_ :1 ;Wire-To-Board Connector, PA Series, Surface Mount, Header, 3, 2 mm, Tin Plated Contacts RoHS Compliant: Yes
+BM03BPASS1TFTLFSN
+*STM J
+*NGS
+*PNM 1=1 2=2 3=3 4=MP1 5=MP2
+*PLB 1="1" 2="2" 3="3" 4="MP1" 5="MP2"
+*MXP 7
+*DFN BM03B-PASS-1-TFT_LF__SN_
+~!Manufacturer_Name (JST (JAPAN SOLDERLESS TERMINALS))
+~!Manufacturer_Part_Number (BM03B-PASS-1-TFT(LF)(SN))
+~!Mouser Part Number (-)
+~!Mouser Price/Stock (-)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://datasheet.lcsc.com/szlcsc/2002281632_JST-Sales-America-BM03B-PASS-1-TFT-LF-SN_C485351.pdf)
+~!Height (8.9mm)
+~!3D_Model (BM03B-PASS-1-TFT_LF__SN_)
+BM03B-PASS-1-TFT_LF__SN_
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

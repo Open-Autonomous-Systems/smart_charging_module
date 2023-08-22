@@ -1,0 +1,131 @@
+# Created by Ultra Librarian Gold 8.3.307 Copyright © 1999-2021
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CAP_PK/PZ_10X16_LOW_RUB.pac';
+Grid Mil;
+Change Drill 34;
+Pad '1' Round 0 54 R0 (0 0);
+Change Drill 34;
+Pad '2' Round 0 54 R180 (197 0);
+Layer 47;
+Wire 6 (0 0) (0 -272);
+Wire 6 (197 0) (197 -272);
+Wire 6 (0 -256) (197 -256);
+Wire 6 (0 -256) (10 -252);
+Wire 6 (0 -256) (10 -262);
+Wire 6 (10 -252) (10 -262);
+Wire 6 (197 -256) (187 -252);
+Wire 6 (197 -256) (187 -262);
+Wire 6 (187 -252) (187 -262);
+Wire 6 (-108 0) (-108 272);
+Wire 6 (305 0) (305 272);
+Wire 6 (-108 256) (305 256);
+Wire 6 (-108 256) (-98 262);
+Wire 6 (-108 256) (-98 252);
+Wire 6 (-98 262) (-98 252);
+Wire 6 (305 256) (295 262);
+Wire 6 (305 256) (295 252);
+Wire 6 (295 262) (295 252);
+Wire 6 (98 206) (370 206);
+Wire 6 (98 -206) (370 -206);
+Wire 6 (355 206) (355 -206);
+Wire 6 (355 206) (350 196);
+Wire 6 (355 206) (360 196);
+Wire 6 (350 196) (360 196);
+Wire 6 (355 -206) (350 -196);
+Wire 6 (355 -206) (360 -196);
+Wire 6 (350 -196) (360 -196);
+Change Size 50;
+Change Ratio 6;
+Text 'Default Pad Style: EX54Y54D34P' SR0 (-546 -482);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 1 Pad Style: OX60Y90D30P' SR0 (-507 -556);
+Change Size 50;
+Change Ratio 6;
+Text 'Alt 2 Pad Style: OX90Y60D30P' SR0 (-507 -632);
+Change Size 25;
+Change Ratio 4;
+Text '0.197in/5mm' SR0 (-19 -302);
+Change Size 25;
+Change Ratio 4;
+Text '0.413in/10.49mm' SR0 (-61 276);
+Change Size 25;
+Change Ratio 4;
+Text '0.413in/10.49mm' SR0 (375 -12);
+Layer 21;
+Wire 6 (-168 0) (-118 0);
+Wire 6 (-143 25) (-143 -25);
+Wire 6 (310 0) -180 (-113 0);
+Wire 6 (-113 0) -180 (310 0);
+Change Size 50;
+Change Ratio 6;
+Text '>Value' SR0 (30 -25);
+Layer 51;
+Wire 6 (-168 0) (-118 0);
+Wire 6 (-143 25) (-143 -25);
+Wire 0 (305 0) -180 (-108 0);
+Wire 0 (-108 0) -180 (305 0);
+Layer 27;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-30 -25);
+Layer 25;
+
+Edit 'CAPH.sym';
+Grid Mil;
+Layer 94;
+Pin '2' Pas None Short R180 Off 1 (300 0)
+Pin '1' Pas None Short R0 Off 1 (0 0)
+Wire 8 (137 -75) (137 75);
+Wire 8 (162 -75) (162 75);
+Wire 8 (162 0) (200 0);
+Wire 8 (100 0) (137 0);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (-203 -218);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (-161 82);
+
+Edit 'CAPV.sym';
+Grid Mil;
+Layer 94;
+Pin '2' Pas None Short R90 Off 1 (0 -300)
+Pin '1' Pas None Short R270 Off 1 (0 0)
+Wire 8 (-75 -137) (75 -137);
+Wire 8 (-75 -162) (75 -162);
+Wire 8 (0 -162) (0 -200);
+Wire 8 (0 -100) (0 -137);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (100 -294);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (100 -168);
+
+Edit '25PX1000MEFCT810X16.dev';
+Prefix 'C';
+Description '';
+Value Off;
+Add CAPH 'A' Next  1 (0 0);
+Package 'CAP_PK/PZ_10X16_LOW_RUB';
+Technology '';
+Attribute Copyright 'Copyright (C) 2022 Ultra Librarian. All rights reserved.';
+Attribute Mfr_Name 'Rubycon';
+Attribute Manufacturer_Part_Number '25PX1000MEFCT810X16';
+Attribute Digi-Key_Part_Number_1 '1189-1583-1-ND';
+Attribute Digi-Key_Part_Number_2 '1189-1583-3-ND';
+Attribute Digi-Key_Part_Number_3 '1189-1583-3-NDL';
+Connect 'A.1' '1';
+Connect 'A.2' '2';

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'BM03B_PASS_1_TFT_LF__SN_'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "JST (JAPAN SOLDERLESS TERMINALS)", "BM03B-PASS-1-TFT(LF)(SN)" (!) = "", "BM03BPASS1TFTLFSN", "Other", "", "", "", "", "Wire-To-Board Connector, PA Series, Surface Mount, Header, 3, 2 mm, Tin Plated Contacts RoHS Compliant: Yes", "https://datasheet.lcsc.com/szlcsc/2002281632_JST-Sales-America-BM03B-PASS-1-TFT-LF-SN_C485351.pdf", "8.9 mm"
+END_PART
+
+END.
